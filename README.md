@@ -1,6 +1,6 @@
 # Human Activity Recognition using Decision Tree
 
-This project focuses on using decision tree classifier for human activity recognition from data obtained from data captured using mobile sensors
+This project focuses on using decision tree classifier for human activity recognition from data captured using mobile sensor.
 The data consists of a group of 30 individuals within the age of 19-48 years, who volunteered to participate. 
 Each subject performed six different activities: 
 
