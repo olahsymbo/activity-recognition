@@ -55,11 +55,11 @@ print("Accuracy of 5-fold Cross Validation :: ", depth)
 
 plt.plot(depth) 
 plt.tick_params(
-    axis='x',          # changes apply to the x-axis
-    which='both',      # both major and minor ticks are affected
-    bottom=False,      # ticks along the bottom edge are off
-    top=False,         # ticks along the top edge are off
-    labelbottom=False) # labels along the bottom edge are off 
+    axis='x',
+    which='both',
+    bottom=False,
+    top=False,
+    labelbottom=False)
 plt.ylabel('Recognition rate of Human Activity')
 plt.title('Plot 5-fold cross validation results') 
 plt.show()
