@@ -16,6 +16,7 @@ Each subject performed six different activities:
 5-	STANDING, 
 
 6-	LAYING. 
+
 ####
 
 During the motion sessions, each subject is wearing a smartphone on their waist.
@@ -24,16 +25,16 @@ During the motion sessions, each subject is wearing a smartphone on their waist.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.  
 
-Download the sample data from UCI repository https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+- Download the sample data from UCI repository https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
-Run the following script:
+- Run the following script to train and test the activity recognition model:
 
-```
-actionrecogn.py
-```
+  ```
+  python3 actionrecogn.py
+  ```
 
-or 
+- You can also run the following script to perform feature selection using LASSO, before training and testing the model
 
-```
-actionrecogn_featsel.py
-```
+  ```
+  python3 actionrecogn_featsel.py
+  ```
